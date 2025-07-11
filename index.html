@@ -1,44 +1,7 @@
 <!doctype html>
 <html lang="en">
   
-  <head>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">PhancyDani</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    
+  <head>    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
@@ -46,12 +9,57 @@
   </head>
   
   <body>
-    <div class="container text-center">
-      <img href="./images/dani-doodle.png">
-    </div>
-    <div class="container text-center">
-        <h1>Hi, I'm Danielle!</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <nav class="navbar navbar-expand-md" style="background-color: #C6D4E6;" data-bs-theme="light">
+      <div class="container-fluid">
+        <div class="container">
+          <img src="./images/img-logo.png" alt="logo" width=5% height=5%>
+        <a class="navbar-brand" href="#">PhancyDani</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Links</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <div class="row">
+        <div class="col-sm p-0">
+          <header>
+            <div class="container" margin=50p></div>
+              <h1 class="text-center">
+                Hi, I'm Danielle!
+              </h1>
+            <p class="text-center">
+              Illustrator & Graphic Designer
+            </p>
+        </div>
+          </header>
+        </div>
+      </div>
+
+      <div class="row d-flex align-items">
+        <div class="col-sm border-end m-4">
+          <aside class="m-4">
+    
+    <div class="container-sm text-center">
+      <div class="rowd-flex align-items">
+        <div class="col-sm border-end m-4">
+          <img src="./images/dani-doodle.png" class="img-fluid w-100 h-100">
+        </div>
     </div>
     <div class="container-md">
       <div class="row">
@@ -63,6 +71,7 @@
           </aside>
         </div>
       </div>
+    
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>

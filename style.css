@@ -1,5 +1,14 @@
 html {
   height: 100%;
   width: 100%;
-  
+}
+
+img{
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+#nav-item{
+  justify-content: flex-end;
 }
